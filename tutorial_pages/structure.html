@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML for Structuring Content</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+          rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Header</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a> </li>
+        <li><a href="#">Our Team</a> </li>
+        <li><a href="#">Projects</a> </li>
+        <li><a href="#">Contact</a> </li>
+    </ul>
+
+    <!--A Search Form is another common non-linear way to navigate through a website. -->
+    <form>
+        <label>
+            <input type="search" name="q" placeholder="Search query">
+        </label>
+        <input type="submit" value="Go!">
+    </form>
+</nav>
+
+<hr>
+
+<main>
+
+    <article>
+        <h2>Article Heading</h2>
+        <p>A load of random text about nothing, constituting a pointless paragraph.</p>
+        <h3>Subsection</h3>
+        <p>Some more silly text about a whole load of nothing, just here to take up some space.</p>
+        <p>And another pointless paragraph! Sure why not at the end of the day?</p>
+        <h3>Another Subsection</h3>
+        <p>And with another subsection comes another passage of sweet sweet nothings.</p>
+        <p>And one more time.</p>
+    </article>
+
+    <hr>
+
+    <aside>
+        <h2>Related</h2>
+        <ul>
+            <li><a href="#">Oh I do like to be beside the seaside</a></li>
+            <li><a href="#">Oh I do like to be beside the sea</a> </li>
+            <li><a href="#">Although in the East of Ireland</a> </li>
+            <li><a href="#">It never stops raining</a> </li>
+            <li><a href="#">Oh well...</a> </li>
+        </ul>
+    </aside>
+
+    <hr>
+
+    <div class="Example Div">
+        <p>
+            Divs are non-semantic block-level elements. They should only be used when you can't think of a more
+            suitable semantic element to use, and usually have a class attribute to describe their function.
+        </p>
+        <p>
+            Span elements are inline non-semantic elements. <span class="note">(Note: They are added like this.)</span>
+        </p>
+    </div>
+
+    <p>
+        Paragraphs can also be broken up.<br>
+        This can be done by use the &lt;br&gt; element.<br>
+        We can also use the thematic break element &lt;hr&gt;.
+    </p>
+    <hr>
+    <p>
+        As you can see, there is now a line between the above paragraph and this one.<br>
+        They are actually used throughout this page to break up the different sections.
+    </p>
+
+</main>
+
+<hr>
+
+<footer>
+    <p>©Copyright 2022 by nobody. All rights reversed.</p>
+</footer>
+
+</body>
+</html>
