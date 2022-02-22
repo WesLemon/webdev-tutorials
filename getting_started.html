@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
     <head>
         <meta charset="UTF-8">
         <title>My Test Page</title>
@@ -15,7 +15,7 @@
         <p>&lt;p&gt; </p><p>elements </p><p>are </p><p>block</p><p> elements.</p>
 
         <!---EMPTY ELEMENTS--->
-        <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png">
+        <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" alt="gone">
 
         <!---ATTRIBUTES, they don't appear in the content--->
         <p class="editor-note">My cat is very grumpy.</p>
@@ -23,8 +23,12 @@
         <p>"href" is the hyperlink, "title" is what appears when you hover, and "target_blank" opens in new tab</p>
 
         <!---BOOLEAN ATTRIBUTES--->
-        <input type="text" disabled>
-        <p>Above the text box is disabled, below it is enabled.</p>
-        <input type="text">
+        <label>Disabled text box
+            <input type="text" disabled>
+        </label>
+        <p></p>
+        <label>Enabled text box
+            <input type="text">
+        </label>
     </body>
 </html>
